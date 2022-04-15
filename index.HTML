@@ -1,0 +1,1310 @@
+<html lang="en"><head>
+
+    <title>CraftYourTown</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=39a87ee082">
+
+    <meta name="description" content="CraftYourTown">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://craftyourtown.com/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="next" href="https://craftyourtown.com/page/2/">
+    
+    <meta property="og:site_name" content="CraftYourTown">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CraftYourTown">
+    <meta property="og:description" content="CraftYourTown">
+    <meta property="og:url" content="https://craftyourtown.com/">
+    <meta property="og:image" content="https://craftyourtown.com/content/images/2022/04/ukraine4-1.png">
+    <meta property="article:publisher" content="https://www.facebook.com/ghost">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CraftYourTown">
+    <meta name="twitter:description" content="CraftYourTown">
+    <meta name="twitter:url" content="https://craftyourtown.com/">
+    <meta name="twitter:image" content="https://craftyourtown.com/content/images/2022/04/ukraine4-1.png">
+    <meta name="twitter:site" content="@ghost">
+    <meta property="og:image:width" content="1920">
+    <meta property="og:image:height" content="1017">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "publisher": {
+        "@type": "Organization",
+        "name": "CraftYourTown",
+        "url": "https://craftyourtown.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://craftyourtown.com/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "url": "https://craftyourtown.com/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://craftyourtown.com/content/images/2022/04/ukraine4-1.png",
+        "width": 1920,
+        "height": 1017
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://craftyourtown.com/"
+    },
+    "description": "CraftYourTown"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 4.37">
+    <link rel="alternate" type="application/rss+xml" title="CraftYourTown" href="https://craftyourtown.com/rss/">
+    
+    <script defer="" src="/public/cards.min.js?v=39a87ee082"></script><style>:root {--ghost-accent-color: #0080ff;}</style>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=39a87ee082">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+        
+    <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer=""></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style>
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #373a4f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5d6181;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7b7fa0;
+}
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --body: #202230;
+    --panels: #32354c;
+    --buttons: #27293c;
+    --inputs: #2a2c40;
+    --title: #8d91b3;
+    --accent: #0d85d8;
+    --accentHover: #6f75a0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background: var(--body);
+    color: #fff;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease;
+}
+
+a:focus {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.BarlowFont {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* JC HEADER */
+
+.JCHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    flex-direction: column;
+    background-color: var(--inputs);
+    background: linear-gradient(0deg, #2a2c40a6, #2a2c40ad),url(https://i.imgur.com/PC1ql9v.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.JC-HeaderContent-space {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.JC-HeaderContent-icon {
+    width: 45px;
+    background: #40424d;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.JC-HeaderContent-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 294px;
+    color: var(--accent);
+    text-align: right;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.JC-HeaderContent-left .JC-HeaderContent-col {
+    position: relative;
+    left: 0px;
+    transition: 0.3s ease;
+}
+
+.JC-HeaderContent-left:hover .JC-HeaderContent-col {
+    position: relative;
+    left: -10px;
+    transition: 0.3s ease;
+}
+
+.JC-HeaderContent-left .JC-HeaderContent-icon {
+    margin-left: 15px;
+}
+
+.JC-HeaderContent-right {
+    display: flex;
+    color: var(--accent);
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.JC-HeaderContent-right .JC-HeaderContent-icon {
+    margin-right: 15px;
+}
+
+.JC-HeaderContent-right .JC-HeaderContent-col {
+    position: relative;
+    right: 0px;
+    transition: 0.3s ease;
+}
+
+.JC-HeaderContent-right:hover .JC-HeaderContent-col {
+    position: relative;
+    right: -10px;
+    transition: 0.3s ease;
+}
+
+.JC-LogoLink {
+    position: absolute;
+}
+
+.JC-LogoImage {
+    width: 160px;
+}
+
+.JC-HeaderContent-big {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.JC-HeaderContent-small {
+    font-size: 13px;
+    font-weight: 600;
+    color: #6d6f83;
+    margin-top: -3px;
+    text-transform: uppercase;
+}
+
+.JC-HeaderContent-small span{
+    color: #b4b4b4;
+}
+
+.JC-NavBar {
+    background: #1c1e2f;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.JC-navBar-space {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.JC-navLeft {
+    display: flex;
+    align-items: center;
+}
+
+.JC-navLink {
+    font-weight: 800;
+    margin: 0px 15px;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    transition: 0.s ease;
+}
+
+.JCFooter-link {
+    margin-left: 25px;
+}
+
+.JC-navLink:hover {
+    transition: 0.3s ease;
+    color: #8c92c3;
+}
+
+.JC-navStore {
+    background: var(--accent);
+    padding: 12px 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 3px solid var(--accent);
+    transition: 0.3s ease;
+}
+
+.JC-navStore:hover {
+    background: transparent;
+    transition: 0.3s ease;;
+}
+
+/* MOBILE MENU */
+
+
+.JC-mobileBtn {
+    border: inherit;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    background: var(--accent);
+    padding: 6px 12px;
+    border-radius: 8px;
+    outline: inherit;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s ease;
+}
+
+.JC-mobileBtn svg {
+    width: 35px;
+    color: #fff;
+}
+
+.JC-mobileIcon {
+    width: 20px;
+    color: #fff;
+}
+
+.JC-mobileBtn:hover {
+    background: var(--accentHover);
+    transition: 0.3s ease;
+}
+
+.JCmob {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+    background: #1c1e2f;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+  
+.JCmob-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.JCmob-top {
+    width: 100%;
+    background: var(--accent);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.JCmob-top .closebtn {
+    font-size: 24px;
+    width: 100%;
+    text-align: right;
+    padding: 0px 25px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    top: -20px;
+}
+
+.JCmob-title {
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    top: -10px;
+    color: #fff;
+}
+
+.JC-mobContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.JC-navMob {
+    height: 70px;
+    background: #00000029;
+    width: 100%;
+    line-height: 70px;
+    text-align: left;
+    padding: 0px 25px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* END OF MOBILE MENU */
+
+.JC-Footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    opacity: 0.5;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1250px) {
+    .JC-navBar-space {
+        width: 90% !important;
+    }
+
+    .JC-Footer {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    .JC-navLink {
+        display: none !important;
+    }
+    
+    .navbar-nav {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+
+    .dropdown {
+        line-height: 70px !important;
+    }
+
+    .dropdown .JC-navMob {
+        padding-left: 20px !important;
+    }
+
+    .nav > li > a {
+        padding: 0px !important;
+        line-height: inherit !important;
+    }
+
+    .JCHeader {
+        justify-content: flex-start;
+    }
+
+    .JC-navStore {
+        display: none;
+    }
+
+    .JC-LogoLink {
+        position: relative;
+        top: 50px;
+    }
+
+    .JC-HeaderContent-space {
+        width: 100%;
+    }
+
+    .JC-HeaderContent-space a {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #61657f;
+        background: var(--accent);
+    }
+
+    .JC-HeaderContent-space a:hover {
+        background: var(--accentHover);
+    }
+
+    .JC-HeaderContent-icon {
+        color: #fff;
+    }
+
+    .JC-mobileBtn {
+        display: flex;
+    }
+
+    .JC-HeaderContent-left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--accent);
+        border: 1px solid #61657f;
+        padding: 10px;
+    }
+
+    .JC-HeaderContent-left:hover {
+        background: var(--accentHover);
+    }
+
+    .JC-HeaderContent-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .JC-HeaderContent-col {
+        display: none;
+    }
+
+    .JC-HeaderContent-icon {
+        background: transparent;
+        padding: 0px;
+        margin: 0px !important;
+    }
+}
+    </style>
+
+    <style>
+        .gh-content>blockquote, .gh-content>dl, .gh-content>ol, .gh-content>p, .gh-content>ul {
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .post-card {
+            background: var(--panels);
+            border-radius: 5px;
+            border: 1px solid #242424;
+            box-shadow: var(--boxShadow);
+        }
+
+        .post-card-content {
+            padding: 25px;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .post-card-title {
+            text-align: center;
+            color: #fff;
+        }
+
+        .author-profile {
+            background: #32354c;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 40px 0px;
+        }
+
+        .post-card-excerpt p {
+            overflow-y: hidden;
+        }
+
+        .author-profile p {
+            color: #9ba4a4;
+        }
+
+        .author-profile-social-link {
+            color: #9ba4a4;
+            transition: 0.3s ease;
+        }
+
+        .author-profile-social-link:hover {
+            color: #fff;
+            transition: 0.3s ease;
+        }
+
+        .post-card-image {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 0px !important;
+            border-bottom-right-radius: 0px;
+        }
+
+        .post-card-meta {
+            width: 100%;
+        }
+
+        .post-card-metaMain {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            background: var(--buttons);
+            border-radius: 5px;
+            height: 55px;
+        }
+
+        .post-card-metaLeft {
+            display: flex;
+            padding: 15px;
+            align-items: center;
+        }
+
+        .post-card-metaRight {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            font-weight: 700;
+            font-size: 13px;
+            color: #a4a4a4;
+            margin-left: 15px;
+        }
+
+        .post-card-excerpt p {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            margin: 30px 0px;
+            color: #a4a4a4;
+        }
+
+        .post-card-metaLeft time {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 13px;
+            color: #a4a4a4;
+            margin-left: 15px;
+        }
+
+        .static-avatar {
+            box-shadow: inherit !important;
+        }
+
+        .page-rules .gh-canvas {
+            display: flex !important;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+
+        .page-rules .article-header {
+            display: none !important;
+        }
+
+        .post-card-excerpt p {
+            -webkit-line-clamp: 4;
+            text-align: center;
+        }
+
+        .page-rules .kg-bookmark-container, .kg-bookmark-container:hover {
+           background: var(--buttons) !important; 
+        }
+
+        .page-rules .kg-bookmark-title {
+            color: #5a5f84 !important;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        .kg-bookmark-content {
+            min-height: 300px;
+            justify-content: space-between;
+        }
+
+        .article-tag a {
+            color: #fff;
+            background: #227e78;
+            padding: 10px 15px;
+            border-radius: 80px;
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: 800;
+        }
+
+        .gh-content>[id] {
+            color: #6d7299 !important;
+        }
+
+        .article-title {
+            color: #fff;
+        }
+
+        .gh-canvas {
+            background: var(--panels);
+            padding: 45px;
+            width: 1200px;
+            box-shadow: var(--boxShadow);
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+
+        .post-card-large .post-card-excerpt p {
+            text-align: center;
+        }
+
+        .post-card-large .post-card-image {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px !important;
+            border-top-right-radius: 0px !important;
+            border-bottom-right-radius: 0px !important;
+        }
+
+        .JC-PagesNav {
+            width: 1200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            background: #32354c;
+            padding: 15px 25px;
+            border-radius: 5px;
+            margin-top: 25px;
+        }
+
+        .JC-PageInfo {
+            color: #959595;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .JC-PageBox {
+            color: #959595;
+            font-weight: 700;
+            font-size: 15px;
+            background: #27293c;
+            width: 150px;
+            text-align: center;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+        }
+
+        .post-card-content-link {
+            transition: 0.3s ease;
+        }
+
+        .post-card-content-link:hover {
+            opacity: 0.6;
+            transition: 0.3s ease;;
+        }
+
+        .read-more-wrap {
+            background: #202230 !important;
+        }
+
+        .outer {
+            margin: 80px 0px;
+        }
+
+        .gh-portal-triggerbtn-wrapper {
+            display: none !important;
+        }
+
+        @media only screen and (max-width: 1250px) {
+            .gh-canvas {
+                width: 90%;
+            }
+
+            .JC-PagesNav {
+                width: 90%;
+            }
+            
+            .JCFot-bottom {
+                padding: 25px;
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .post-card-large .post-card-image {
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 0px !important;
+                border-top-right-radius: 5px !important;
+                border-bottom-right-radius: 0px !important;
+            }
+        }
+
+        @media only screen and (max-width: 760px) {
+            .JC-PagesNav {
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .JC-PageBox {
+                width: 100%;
+                height: 70px;
+            }
+
+            .JC-PageInfo {
+                margin: 15px 0px;
+            }
+        }
+    </style>
+
+
+<script async="" src="/cdn-cgi/challenge-platform/h/b/scripts/invisible.js?ts=1650038400"></script><style id="fit-vids-style">.fluid-width-video-container{flex-grow: 1;width:100%;}.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+<body class="home-template">
+<div class="viewport">
+
+    <!-- JC HEADER -->
+
+        <div class="JCHeader">
+
+
+            <div class="JC-HeaderContent-space">
+
+                <div class="JC-HeaderContent-left copyIP" onclick="copied()" data-clipboard-text="mc.craftyourtown.com">
+                    <svg class="JC-HeaderContent-icon" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M4,2H20A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4A2,2 0 0,1 4,2M6,6V10H10V12H8V18H10V16H14V18H16V12H14V10H18V6H14V10H10V6H6Z"></path>
+                    </svg>
+
+                    <div class="JC-HeaderContent-col">
+                        <p class="JC-HeaderContent-big BarlowFont" id="changeText">mc.craftyourtown.com</p>
+                        <p class="JC-HeaderContent-small"><span id="playerCount">57</span> Players</p>
+                    </div>
+                </div>
+
+                <a href="https://discord.gg/cyt"><div class="JC-HeaderContent-right">
+                    <svg class="JC-HeaderContent-icon" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M22,24L16.75,19L17.38,21H4.5A2.5,2.5 0 0,1 2,18.5V3.5A2.5,2.5 0 0,1 4.5,1H19.5A2.5,2.5 0 0,1 22,3.5V24M12,6.8C9.32,6.8 7.44,7.95 7.44,7.95C8.47,7.03 10.27,6.5 10.27,6.5L10.1,6.33C8.41,6.36 6.88,7.53 6.88,7.53C5.16,11.12 5.27,14.22 5.27,14.22C6.67,16.03 8.75,15.9 8.75,15.9L9.46,15C8.21,14.73 7.42,13.62 7.42,13.62C7.42,13.62 9.3,14.9 12,14.9C14.7,14.9 16.58,13.62 16.58,13.62C16.58,13.62 15.79,14.73 14.54,15L15.25,15.9C15.25,15.9 17.33,16.03 18.73,14.22C18.73,14.22 18.84,11.12 17.12,7.53C17.12,7.53 15.59,6.36 13.9,6.33L13.73,6.5C13.73,6.5 15.53,7.03 16.56,7.95C16.56,7.95 14.68,6.8 12,6.8M9.93,10.59C10.58,10.59 11.11,11.16 11.1,11.86C11.1,12.55 10.58,13.13 9.93,13.13C9.29,13.13 8.77,12.55 8.77,11.86C8.77,11.16 9.28,10.59 9.93,10.59M14.1,10.59C14.75,10.59 15.27,11.16 15.27,11.86C15.27,12.55 14.75,13.13 14.1,13.13C13.46,13.13 12.94,12.55 12.94,11.86C12.94,11.16 13.45,10.59 14.1,10.59Z"></path>
+                    </svg>
+
+                    <div class="JC-HeaderContent-col">
+                        <p class="JC-HeaderContent-big BarlowFont">Discord Server</p>
+                        <p class="JC-HeaderContent-small"><span id="memberCount">882</span> Online</p>
+                    </div>
+                </div></a>
+                    
+            </div>
+
+            <a href="/" class="JC-LogoLink">
+                <img src="https://i.imgur.com/RMOoIil.png" class="JC-LogoImage">
+            </a>
+
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div id="JCMENU" class="JCmob">
+            <div class="JCmob-content">
+                
+                <div class="JCmob-top">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeMobMenu()">×</a>
+                    <p class="JCmob-title">NAVIGATION</p>
+                </div>
+                
+                <div class="JC-mobContainer">
+                    <a href="/" class="JC-navMob">Home</a>
+                    <a href="https://wiki.craftyourtown.com/" class="JC-navMob">Wiki</a>
+                    <a href="https://craftyourtown.com/vote" class="JC-navMob">Vote</a>
+                    <a href="https://map.craftyourtown.com/" class="JC-navMob">Map</a>
+                    <a href="https://discord.gg/cyt" class="JC-navMob">Apply</a>
+                    <a href="https://craftyourtown.com/rules" class="JC-navMob">Rules</a>
+                    <a href="https://store.craftyourtown.com" class="JC-navMob">Store</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- MOBILE MENU -->
+
+        <div class="JC-NavBar">
+
+            <div class="JC-navBar-space">
+                <div class="JC-navLeft">
+                    <a href="/" class="JC-navLink">Home</a>
+                    <a href="https://wiki.craftyourtown.com/" class="JC-navLink">Wiki</a>
+                    <a href="https://craftyourtown.com/vote" class="JC-navLink">Vote</a>
+                    <a href="https://map.craftyourtown.com/" class="JC-navLink">Map</a>
+                    <a href="https://discord.gg/cyt" class="JC-navLink">Apply</a>
+                    <a href="https://craftyourtown.com/rules" class="JC-navLink">Rules</a>
+
+                    <button class="JC-mobileBtn" onclick="openMobMenu()">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#fff" d="M3.5,6a1,1,0,1,0,1,1A1,1,0,0,0,3.5,6Zm4,2h14a1,1,0,0,0,0-2H7.5a1,1,0,0,0,0,2Zm0,3a1,1,0,1,0,1,1A1,1,0,0,0,7.5,11Zm4,5a1,1,0,1,0,1,1A1,1,0,0,0,11.5,16Zm10-5h-10a1,1,0,0,0,0,2h10a1,1,0,0,0,0-2Zm0,5h-6a1,1,0,0,0,0,2h6a1,1,0,0,0,0-2Z"></path></svg>
+
+                    </button>
+                </div>
+
+
+                <div class="JC-navRight">
+                    <a href="https://store.craftyourtown.com" class="JC-navStore">Store</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- JC HEADER -->
+
+    <main>
+        
+
+<main id="site-main" class="site-main outer">
+    <div class="inner posts">
+
+        <div class="post-feed">
+
+                
+<article class="post-card post post-card-large">
+
+    <a class="post-card-image-link" href="/top-voters-march/">
+        <img class="post-card-image" srcset="/content/images/size/w300/2022/04/Top-Voters-MAR.png 300w,
+                    /content/images/size/w600/2022/04/Top-Voters-MAR.png 600w,
+                    /content/images/size/w1000/2022/04/Top-Voters-MAR.png 1000w,
+                    /content/images/size/w2000/2022/04/Top-Voters-MAR.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2022/04/Top-Voters-MAR.png" alt="Top Voters - March" loading="lazy">
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/top-voters-march/">
+            <header class="post-card-header">
+                <!-- 
+                -->
+                <h2 class="post-card-title">Top Voters - March</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>It's that time again, release the hounds top voters! The Top Voters for this month were: AlexLander123 - 251 votes Dzierganka - 228 votes prezm - 225 votes Heldaniel - 222 votes shawn678 - 222 votes Letroy11 - 221 votes AleksLuthor - 218 votes AlexaIV - 216 votes Mammakstoll -</p>
+            </section>
+        </a>
+
+        <footer class="post-card-meta">
+
+            <div class="post-card-metaMain">
+
+                <div class="post-card-metaLeft">
+                        <div class="author-list-item">
+                            <a href="/author/luke/" class="static-avatar">
+                                <img class="author-profile-image" src="/content/images/size/w100/2022/02/0D24CF7E-93F1-489E-97AD-FD7A0ED87E64.jpg" alt="lukemango">
+                            </a>
+                        </div>
+
+                    <time datetime="2022-04-01" class="number">Apr 1, 2022</time> 
+                </div>
+
+                <div class="post-card-metaRight number">
+                    1 min read
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</article>
+
+
+                
+<article class="post-card post ">
+
+    <a class="post-card-image-link" href="/top-voters-january/">
+        <img class="post-card-image" srcset="/content/images/size/w300/2022/02/Top-Voters-New.png 300w,
+                    /content/images/size/w600/2022/02/Top-Voters-New.png 600w,
+                    /content/images/size/w1000/2022/02/Top-Voters-New.png 1000w,
+                    /content/images/size/w2000/2022/02/Top-Voters-New.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2022/02/Top-Voters-New.png" alt="Top Voters - January" loading="lazy">
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/top-voters-january/">
+            <header class="post-card-header">
+                <!-- 
+                -->
+                <h2 class="post-card-title">Top Voters - January</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>It's that time again, release the hounds top voters! The Top Voters for this month were: AlexLander123 - 193 votes TacoMamaFae - 169 votes (tied) luukvanloo - 169 votes (tied) Spektrofotometer - 168 votes (tied) MrStauf - 168 votes (tied) _Andromeda - 167 votes prezm - 163 votes AppleCider9283 -</p>
+            </section>
+        </a>
+
+        <footer class="post-card-meta">
+
+            <div class="post-card-metaMain">
+
+                <div class="post-card-metaLeft">
+                        <div class="author-list-item">
+                            <a href="/author/luke/" class="static-avatar">
+                                <img class="author-profile-image" src="/content/images/size/w100/2022/02/0D24CF7E-93F1-489E-97AD-FD7A0ED87E64.jpg" alt="lukemango">
+                            </a>
+                        </div>
+
+                    <time datetime="2022-02-03" class="number">Feb 3, 2022</time> 
+                </div>
+
+                <div class="post-card-metaRight number">
+                    1 min read
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</article>
+
+
+                
+<article class="post-card post ">
+
+    <a class="post-card-image-link" href="/top-voters-november/">
+        <img class="post-card-image" srcset="/content/images/size/w300/2022/02/vote.png 300w,
+                    /content/images/size/w600/2022/02/vote.png 600w,
+                    /content/images/size/w1000/2022/02/vote.png 1000w,
+                    /content/images/size/w2000/2022/02/vote.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2022/02/vote.png" alt="Top Voters - November" loading="lazy">
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/top-voters-november/">
+            <header class="post-card-header">
+                <!-- 
+                -->
+                <h2 class="post-card-title">Top Voters - November</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>It's that time again, release the hounds top voters! The Top Voters for this month were: AlexLander123 - 201 votes (tied) WolfLiSteel - 201 votes (tied) ChunkyChaya - 191 votes John_Crichton - 190 votes FreakingFear - 188 votes meechza - 176 votes Spektrofotometer - 169 votes shawn678 - 166</p>
+            </section>
+        </a>
+
+        <footer class="post-card-meta">
+
+            <div class="post-card-metaMain">
+
+                <div class="post-card-metaLeft">
+                        <div class="author-list-item">
+                            <a href="/author/luke/" class="static-avatar">
+                                <img class="author-profile-image" src="/content/images/size/w100/2022/02/0D24CF7E-93F1-489E-97AD-FD7A0ED87E64.jpg" alt="lukemango">
+                            </a>
+                        </div>
+
+                    <time datetime="2021-12-01" class="number">Dec 1, 2021</time> 
+                </div>
+
+                <div class="post-card-metaRight number">
+                    1 min read
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</article>
+
+
+                
+<article class="post-card post featured ">
+
+    <a class="post-card-image-link" href="/towny-zion-version-9-9/">
+        <img class="post-card-image" srcset="/content/images/size/w300/2022/02/content-update-v9.9.png 300w,
+                    /content/images/size/w600/2022/02/content-update-v9.9.png 600w,
+                    /content/images/size/w1000/2022/02/content-update-v9.9.png 1000w,
+                    /content/images/size/w2000/2022/02/content-update-v9.9.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2022/02/content-update-v9.9.png" alt="Towny - Version 9.9" loading="lazy">
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/towny-zion-version-9-9/">
+            <header class="post-card-header">
+                <!-- 
+                -->
+                <h2 class="post-card-title">Towny - Version 9.9</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>Hello everyone, it's time for another update. We're aware there isn't a lot of changes to the overall game in this update as most of the teams efforts have been scattered over different things, nevertheless, we hope you enjoy! RemovedMarriage The original reason we re-added marriage was because of the</p>
+            </section>
+        </a>
+
+        <footer class="post-card-meta">
+
+            <div class="post-card-metaMain">
+
+                <div class="post-card-metaLeft">
+                        <div class="author-list-item">
+                            <a href="/author/luke/" class="static-avatar">
+                                <img class="author-profile-image" src="/content/images/size/w100/2022/02/0D24CF7E-93F1-489E-97AD-FD7A0ED87E64.jpg" alt="lukemango">
+                            </a>
+                        </div>
+
+                    <time datetime="2021-11-27" class="number">Nov 27, 2021</time> 
+                </div>
+
+                <div class="post-card-metaRight number">
+                    3 min read
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</article>
+
+
+                
+<article class="post-card post ">
+
+    <a class="post-card-image-link" href="/vote/">
+        <img class="post-card-image" srcset="/content/images/size/w300/2022/02/vote-1.png 300w,
+                    /content/images/size/w600/2022/02/vote-1.png 600w,
+                    /content/images/size/w1000/2022/02/vote-1.png 1000w,
+                    /content/images/size/w2000/2022/02/vote-1.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2022/02/vote-1.png" alt="Vote" loading="lazy">
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/vote/">
+            <header class="post-card-header">
+                <!-- 
+                -->
+                <h2 class="post-card-title">Vote</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>Vote Link 1 - https://bit.ly/3siHwhx Vote Link 2 - https://bit.ly/3sJd1Tk Vote Link 3 - https://bit.ly/3BxikrG Vote Link 4 - https://bit.ly/3Fjfs2r Vote Link 5 - https://bit.ly/3tsSeUX Vote Link 6 - https://bit.ly/3GbVCaB Vote Link</p>
+            </section>
+        </a>
+
+        <footer class="post-card-meta">
+
+            <div class="post-card-metaMain">
+
+                <div class="post-card-metaLeft">
+                        <div class="author-list-item">
+                            <a href="/author/luke/" class="static-avatar">
+                                <img class="author-profile-image" src="/content/images/size/w100/2022/02/0D24CF7E-93F1-489E-97AD-FD7A0ED87E64.jpg" alt="lukemango">
+                            </a>
+                        </div>
+
+                    <time datetime="2021-11-24" class="number">Nov 24, 2021</time> 
+                </div>
+
+                <div class="post-card-metaRight number">
+                    1 min read
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</article>
+
+        <article class="post-card post ">
+
+    <a class="post-card-image-link" href="/rules/">
+        <img class="post-card-image" srcset="/content/images/size/w300/2022/02/discord-banner.png 300w,
+                    /content/images/size/w600/2022/02/discord-banner.png 600w,
+                    /content/images/size/w1000/2022/02/discord-banner.png 1000w,
+                    /content/images/size/w2000/2022/02/discord-banner.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2022/02/discord-banner.png" alt="Rules" loading="lazy">
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/rules/">
+            <header class="post-card-header">
+                <!-- 
+                -->
+                <h2 class="post-card-title">Rules</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>Here is where you'll find all of our rules and allowed mods for the CraftYourTown servers. Please make sure to read all of them thoroughly as you may accidentally break our rules and be punished for breaking them. CHAT RULES C1: Any form of chat disturbance/spam isn’t allowed.</p>
+            </section>
+        </a>
+
+        <footer class="post-card-meta">
+
+            <div class="post-card-metaMain">
+
+                <div class="post-card-metaLeft">
+                        <div class="author-list-item">
+                            <a href="/author/luke/" class="static-avatar">
+                                <img class="author-profile-image" src="/content/images/size/w100/2022/02/0D24CF7E-93F1-489E-97AD-FD7A0ED87E64.jpg" alt="lukemango">
+                            </a>
+                        </div>
+
+                    <time datetime="2021-11-20" class="number">Nov 20, 2021</time> 
+                </div>
+
+                <div class="post-card-metaRight number">
+                    4 min read
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</article></div>
+
+    </div>
+</main>
+
+<div class="JC-PagesNav">
+    <div class="JC-PageBox">
+            <p>Newer Posts</p>
+    </div>
+
+    <div class="JC-PageInfo">
+        <span class="page-number">Page 1 of 2</span>
+    </div>
+
+    <div class="JC-PageBox">
+            <a href="/page/2/" class="page-btn">Older Posts</a>
+    </div>
+</div>
+
+    </main>
+
+
+        <!-- JC FOOTER -->
+
+        <div class="JC-Footer">
+
+            <div>
+                <p class="JCFooter-copy">© 2022 - CraftYourTown, est 2017. All Rights Reserved.</p>
+            </div>
+
+
+        </div>
+
+        <!--JC FOOTER-->
+
+</div>
+
+
+        <!-- SCRIPT -->
+        <script>
+            new ClipboardJS('.copyIP');
+        </script>
+
+        <script>
+            window.onload = function vote() {
+                axios.get("https://api.mcsrvstat.us/2/mc.craftyourtown.com").then(function(e) {
+                    200 == e.status && (document.getElementById("playerCount").innerText = e.data.players.online)
+                }), axios.get("https://discord.com/api/guilds/298107515391180810/widget.json").then(function(e) {
+                    200 == e.status && (document.getElementById("memberCount").innerText = e.data.presence_count)
+                });
+            };
+        </script>
+
+        <script>
+            function copied() {
+                var x = document.getElementById("changeText");
+                if (x.innerHTML === "mc.craftyourtown.com") {
+                    x.innerHTML = "Copied";
+                    setTimeout(function(){revertBack()}, 2000);
+                } else {
+                    x.innerHTML = "mc.craftyourtown.com";
+                }
+            }
+        </script>
+
+        <script>
+            function revertBack() {
+                var x = document.getElementById("changeText");
+                if (x.innerHTML === "Copied") {
+                    x.innerHTML = "mc.craftyourtown.com";
+                } else {
+                    x.innerHTML = "mc.craftyourtown.com";
+                }
+            }
+        </script>
+
+        <script>
+            function openMobMenu() {
+                document.getElementById("JCMENU").style.width = "80%";
+                document.getElementById("bodyOpacity").style.opacity = "20%";
+            }
+            
+            function closeMobMenu() {
+                document.getElementById("JCMENU").style.width = "0%";
+                document.getElementById("bodyOpacity").style.opacity = "100%";
+            }
+        </script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+</script>
+<script src="/assets/built/casper.js?v=39a87ee082"></script>
+<script>
+$(document).ready(function () {
+    // Mobile Menu Trigger
+    $('.gh-burger').click(function () {
+        $('body').toggleClass('gh-head-open');
+    });
+    // FitVids - Makes video embeds responsive
+    $(".gh-content").fitVids();
+});
+</script>
+
+
+
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6fc60542fa0cf365',m:'hvDLEbzJf8C51dR4r2HWvSY5RbLv9OAkXP0s32NLeZE-1650039752-0-ATG6W1VoFzubfJAfZMiOOTM3J6OlYPf1f+ohuwmlsgbVE2/q2U5xRjZZZGNN7JsRg5I6aut/ziHfyNnkurUGa42sFgU5J1azArMeNu273ISy3fdK9y/U7ngTIxxTvzGmaw==',s:[0x3857854a5f,0x3de5f1b3b3],u:'/cdn-cgi/challenge-platform/h/b'}})();</script>
+
+</body></html>
