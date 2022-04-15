@@ -1,1 +1,6 @@
-l
+body {
+    font-family: 'Rubik', sans-serif;
+    background: var(--body);
+    color: #fff;
+    margin-top: 0px;
+}
